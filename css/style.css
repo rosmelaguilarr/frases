@@ -1,0 +1,73 @@
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    transition: all 1s ease-in-out;
+}
+.frase-container{
+    max-width: 1200px;
+    padding: .5rem 1.5rem;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    /* border-radius: 50px 0 50px; */
+    border-width: 5px;
+    border-style: solid;
+    /* border-color: orangered #FFC83D ; */
+    animation: changeborder 4s ease-in-out infinite alternate;
+}
+@keyframes changeborder {
+    from{
+        border-color: orangered #FFC83D ;
+        border-radius: 70px 0 70px;
+    }
+    to{
+        border-color: #FFC83D orangered;
+        border-radius: 0 70px 0;
+    }
+}
+.frase{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    color: #333;
+}
+.frase::before, .frase::after{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 0;
+    vertical-align: middle;
+}
+.frase::before{
+    content: "\201C";
+    margin-right: .5rem;
+}
+.frase::after{
+    content: "\201D";
+    margin-left: .5rem;
+
+}
+.emoji{
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1024px){
+    .frase-container{
+        flex-basis: 90%;
+    }
+    .frase::before, .frase::after{
+        font-size: 2.5rem;
+    }
+    .emoji{
+        font-size: 2rem;
+    }
+}
+
+
+
+
