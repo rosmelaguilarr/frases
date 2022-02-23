@@ -1,4 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;700&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+}
 .container{
     height: 100vh;
     display: flex;
@@ -49,28 +52,23 @@
 .emoji{
     display: block;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 1.5rem;
 }
 
 @media screen and (max-width: 1024px){
     .frase-container{
-        flex-basis: 90%;
+        max-width: 90%;
+    }
+    .frase{
+        font-size: 1.5rem;
     }
     .frase::before, .frase::after{
         font-size: 2.5rem;
     }
     .emoji{
-        font-size: 2rem;
-    }
-}
-@media screen and (max-width: 768px){
-    .emoji{
         font-size: 1.5rem;
     }
-   .frase{
-       font-size: 1.5rem;
-   }
 }
 
 
