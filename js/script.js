@@ -74,7 +74,7 @@ const frases = [
     "¿Estás dispuesto a pagar el precio, para obtener los resultados que quieres?",
     "Si piensas que puedes o no puedes. en cualquier caso, estás en lo correcto.",
     "Si de verdad estás comprometido, motivado y quieres resultados, sacas el tiempo de donde sea.",
-    "Los errores son la manera en que dios te habla. despierta, presta atención. hay algo que necesito que aprendas.",
+    "Los errores son la manera en que Dios te habla. despierta, presta atención. hay algo que necesito que aprendas.",
     "Trabaje en desarrollar habilidades de alto valor, si quiere amasar fortuna.",
     "Si quieres lograr todo lo que te propongas lo primero que debes hacer es empezar a creer en ti, solo así cualquier cosa será posible.",
     "La educación financiera te da la maravillosa oportunidad de ser autónomo.",
