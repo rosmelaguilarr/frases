@@ -1,6 +1,7 @@
 const d = document,
     $container = d.querySelector(".container"),
-    $frase = d.querySelector(".frase");
+    $frase = d.querySelector(".frase"),
+    $type = d.querySelector(".type");
 
 const frases = [
     "No basta con saber. La acción es lo que produce los resultados.",
@@ -196,6 +197,20 @@ const frases = [
     "Lo que sucede viene a darte la oportunidad de evolucionar."
 ];
 
+const phrases = async () => {
+    try {
+        const res = await fetch(`${window.location.href}/phrases.json`);
+        const data = await res.json();
+
+        console.log(window.location.href)
+        console.log(data)
+
+    } catch (err) {
+        console.log(err)
+    }
+
+}
+
 const getColor = () => {
     let rgb, r, g, b;
     r = Math.floor(Math.random() * 255);
@@ -205,7 +220,7 @@ const getColor = () => {
 }
 
 const changeColor = setInterval(() => {
-    $container.style.background = getColor();
+    $container.style.backgroundColor = getColor();
 }, 5000);
 
 const getFrase = () => {
@@ -214,6 +229,7 @@ const getFrase = () => {
     $frase.textContent = frase;
 }
 
+getFrase();
 const changeFrase = setInterval(() => {
     getFrase();
 }, 10000);
