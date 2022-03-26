@@ -977,7 +977,7 @@ export const phrases = [
         },
         {
             id: 197,
-            phrase: "Puedes con todo, pero no todo a la vez.",
+            phrase: "Puedes con todo, pero no con todo a la vez.",
             type: "Personal Development"
         },
         {
