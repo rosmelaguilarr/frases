@@ -8,18 +8,20 @@ body{
     justify-content: center;
     align-items: center;
     background-color: yellowgreen;
-    transition: all 1s ease-in-out;
+    transition: all 5s ease-in-out;
 }
 .frase-container{
     max-width: 1024px;
+    width: 100%;
     padding: .5rem 1.5rem;
     text-align: center;
     background-color: #f2f2f2;
-    transition: all 1s ease-in-out;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     border-width: 5px 0;
     border-style: solid;
-    animation: changeborder 5s ease-in-out infinite alternate;
+    animation: changeborder 3s ease-in-out infinite alternate;
+    position: relative;
+
 }
 @keyframes changeborder {
     from{
@@ -35,21 +37,6 @@ body{
     color: #333;
 }
 
-.frase::before, .frase::after{
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 0;
-    vertical-align: middle;
-}
-.frase::before{
-    content: "\201C";
-    margin-right: .5rem;
-}
-.frase::after{
-    content: "\201D";
-    margin-left: .5rem;
-
-}
 .emoji{
     display: block;
     font-size: 1.5rem;
@@ -66,16 +53,12 @@ body{
     display: block;
     line-height: 10px;
 }
-
-@media screen and (max-width: 1024px){
-    .frase-container{
-        max-width: 100%;
-        padding: .5rem 1.5rem;
-    }
-    .frase::before, .frase::after{
-        font-size: 2.5rem;
-    }
-
+.number{
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+    font-weight: 200;
+    
 }
 
 
