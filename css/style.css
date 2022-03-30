@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;700&display=swap');
+
+:root{
+    --color-primary: #121F3D;
+    --color-secondary: aquamarine;
+}
 body{
     font-family: 'Nunito', sans-serif;
 }
@@ -7,39 +12,34 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: yellowgreen;
-    transition: all 5s ease-in-out;
+    background-color: var(--color-primary);
+    position: relative;
+    z-index: 100;
 }
 .frase-container{
     max-width: 1024px;
     padding: .5rem 1.5rem;
     text-align: center;
-    background-color: #f2f2f2;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-    border-width: 5px 0;
-    border-style: solid;
-    animation: changeborder 3s ease-in-out infinite alternate;
+    border: 1px solid var(--color-secondary) ;
+    border-radius: 20px;
+    color: #f2f2f2;
+    background-color: var(--color-primary);
     position: relative;
-
 }
-@keyframes changeborder {
-    from{
-        border-color: orangered ;
-    }
-    to{
-        border-color: #FFC83D;
-    }
+.shadow{
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+    width: 95%;
+    height: 102%;
+    position: absolute;
+    top: -0.25rem;
+    left: 1rem;
+    transform: rotate(358deg);
+    z-index: -1;
 }
 .frase{
     font-size: 1.5rem;
     margin: 1rem 0 ;
-    color: #333;
-}
-
-.emoji{
-    display: block;
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
 }
 .type{
     display: inline-block;
@@ -51,17 +51,20 @@ body{
     content: "-";
     display: block;
     line-height: 10px;
+
 }
 .number{
-    position: absolute;
-    top: 2rem;
-    right: 1.5rem;
     font-weight: 200;
-    
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    display: block;
 }
 @media screen and (max-width: 768px) {
     .frase-container{
-        width: 100%;
+        width: 95%;
+    }
+    .shadow{
+        left: 0.5rem;
     }
 }
 
