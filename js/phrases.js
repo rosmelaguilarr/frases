@@ -612,7 +612,7 @@ export const phrases = [
         },
         {
             id: 124,
-            phrase:  "Siempre puedes empezar de nuevo eres suficiente.",  
+            phrase:  "Siempre puedes empezar de nuevo, eres suficiente.",  
             type: "Personal Development"
         },
         {
@@ -747,7 +747,7 @@ export const phrases = [
         },
         {
             id: 151,
-            phrase: "Esforzarse duelo, pero quedarse sentado viendo como otros triunfan y tu no, duele más.",
+            phrase: "Esforzarse duele, pero quedarse sentado viendo como otros triunfan y tu no, duele más.",
             type: "Personal Development"
         },
         {
@@ -862,7 +862,7 @@ export const phrases = [
         },
         {
             id: 174,
-            phrase: "No busques excusas, buscar alternativas.",
+            phrase: "No busques excusas, busca alternativas.",
             type: "Personal Development"
         },
         {
@@ -1018,6 +1018,61 @@ export const phrases = [
         {
             id: 205,
             phrase: "Disfruta en silencio, que a la gente le molesta la felicidad ajena.",
+            type: "Personal Development"
+        },
+        {
+            id: 206,
+            phrase: "Aprende a escuchar más y hablar menos, no des consejos muy rápido.",
+            type: "Personal Development"
+        },
+        {
+            id: 207,
+            phrase: "Solucionar errores, es lo que te da experiencia.",
+            type: "Programming"
+        },
+        {
+            id: 208,
+            phrase: "No porque sea complejo, significa que sea difícil.",
+            type: "Programming"
+        },
+        {
+            id: 209,
+            phrase: "Tienes dos opciones. Te rindes o luchas por lo que quieres.",
+            type: "Personal Development"
+        },
+        {
+            id: 210,
+            phrase: "Antes de rendirte, recuerda la razón por la cual empezaste.",
+            type: "Personal Development"
+        },
+        {
+            id: 211,
+            phrase: "La preocupación no quita los problemas de mañana, quita la fuerza de hoy.",
+            type: "Personal Development"
+        },
+        {
+            id: 212,
+            phrase: "Sommos lo que hacemos reiteradamente. La excelencia es un hábito, no un acto.",
+            type: "Personal Development"
+        },
+        {
+            id: 213,
+            phrase: "A quien debes retar, impresionar y superar es a ti mismo.",
+            type: "Personal Development"
+        },
+        {
+            id: 214,
+            phrase: "No hay ascesor para el éxito, tienes que tomar las escaleras.",
+            type: "Personal Development"
+        },
+        {
+            id: 215,
+            phrase: "Nadie te puede hacer sentir inferior sin tu consentimiento.",
+            type: "Personal Development"
+        },
+        {
+            id: 216,
+            phrase: "No puedes arrancar en sexta, todos comenzamos lentos y es en el camino cuando tomamos fuerza.",
             type: "Personal Development"
         },
     ]

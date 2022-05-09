@@ -1,7 +1,6 @@
 import { phrases } from "./phrases.js";
 
 const d = document,
-    $container = d.querySelector(".container"),
     $frase = d.querySelector(".frase"),
     $type = d.querySelector(".type"),
     $number = d.querySelector(".number");
