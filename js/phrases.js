@@ -1052,7 +1052,7 @@ export const phrases = [
         },
         {
             id: 212,
-            phrase: "Sommos lo que hacemos reiteradamente. La excelencia es un hábito, no un acto.",
+            phrase: "Somos lo que hacemos reiteradamente. La excelencia es un hábito, no un acto.",
             type: "Personal Development"
         },
         {
