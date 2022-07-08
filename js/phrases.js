@@ -752,7 +752,7 @@ export const phrases = [
     },
     {
         id: 152,
-        phrase: "Manténgalo privado, hasta que sea permanente.",
+        phrase: "Mantenga en privado, hasta que sea permanente.",
         type: "Personal Development"
     },
     {
@@ -1062,7 +1062,7 @@ export const phrases = [
     },
     {
         id: 214,
-        phrase: "No hay ascesor para el éxito, tienes que tomar las escaleras.",
+        phrase: "No hay ascensor para el éxito, tienes que tomar las escaleras.",
         type: "Personal Development"
     },
     {
@@ -1093,6 +1093,46 @@ export const phrases = [
     {
         id: 220,
         phrase: "Un favor que se echa en cara, no es un favor, es un chantaje.",
+        type: "Personal Development"
+    },
+    {
+        id: 221,
+        phrase: "No puedes atraer lo que criticas o envidias.",
+        type: "Personal Development"
+    },
+    {
+        id: 222,
+        phrase: "La dificultad se supera con tiempo y práctica.",
+        type: "Personal Development"
+    },
+    {
+        id: 223,
+        phrase: "Tú sabes lo que vales, ve y consigue lo que mereces.",
+        type: "Personal Development"
+    },
+    {
+        id: 224,
+        phrase: "Nunca dudes de lo grandioso que puedes ser.",
+        type: "Personal Development"
+    },
+    {
+        id: 225,
+        phrase: "Tengo el poder de crear la vida que deseo.",
+        type: "Personal Development"
+    },
+    {
+        id: 226,
+        phrase: "Cree en ti, invierte en ti y nunca dudes de ti.",
+        type: "Personal Development"
+    },
+    {
+        id: 227,
+        phrase: "La creencia libera poderes creativos.",
+        type: "Personal Development"
+    },
+    {
+        id: 228,
+        phrase: "Las personas exitosas se caracterizan por preguntar y escuchar más.",
         type: "Personal Development"
     }
 ]
