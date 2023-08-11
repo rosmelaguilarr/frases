@@ -25,6 +25,3 @@ const changeFrase = setInterval(() => {
 
 
 
-
-
-
