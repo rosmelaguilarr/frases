@@ -1139,5 +1139,50 @@ export const phrases = [
         id: 229,
         phrase: "Nunca pares, nunca te conformes, hasta que lo bueno sea mejor y lo mejor excelente.",
         type: "Personal Development"
+    },
+    {
+        id: 230,
+        phrase: "Tus hijos seguirán tu ejemplo, no tus consejos.",
+        type: "Personal Development"
+    },
+    {
+        id: 231,
+        phrase: "Jamás pares de aprender, la vida nunca para de enseñar.",
+        type: "Personal Development"
+    },
+    {
+        id: 232,
+        phrase: "Cuando eres un buen observador, puedes ver que todo mundo puede ser tu maestro.",
+        type: "Personal Development"
+    },
+    {
+        id: 233,
+        phrase: "No tomes una decisión permanente a causa de una emoción temporal.",
+        type: "Personal Development"
+    },
+    {
+        id: 234,
+        phrase: "No es la velocidad, es la constancia y la determinación hacia el propósito.",
+        type: "Personal Development"
+    },
+    {
+        id: 235,
+        phrase: "Si el viento no va a servir, toma los remos.",
+        type: "Personal Development"
+    },
+    {
+        id: 236,
+        phrase: "El mundo físico es el mundo del efecto. La imaginación es el mundo real.",
+        type: "Personal Development"
+    },
+    {
+        id: 237,
+        phrase: "No tienes que saber cómo hacerlo. Solo tienes que saber que puedes 🙂.",
+        type: "Personal Development"
+    },
+    {
+        id: 238,
+        phrase: "La clave del crecimiento profesional es decir si a todo y luego buscar un tutorial en Youtube.",
+        type: "Personal Development"
     }
 ]
