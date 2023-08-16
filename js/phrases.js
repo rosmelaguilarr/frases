@@ -1134,5 +1134,10 @@ export const phrases = [
         id: 228,
         phrase: "Las personas exitosas se caracterizan por preguntar y escuchar más.",
         type: "Personal Development"
+    },
+    {
+        id: 229,
+        phrase: "Nunca pares, nunca te conformes, hasta que lo bueno sea mejor y lo mejor excelente.",
+        type: "Personal Development"
     }
 ]
