@@ -5,8 +5,6 @@ const d = document,
     $type = d.querySelector(".type"),
     $number = d.querySelector(".number");
 
-
-
 const getFrase = () => {
     let index = Math.floor(Math.random() * (phrases.length - 1)),
         frase = phrases[index].phrase;
