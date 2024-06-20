@@ -29,6 +29,8 @@ body {
     color: rgb(242, 242, 242);
     background-color: var(--color-primary);
     position: relative;
+
+   
 }
 
 .frase-container::before {
@@ -54,6 +56,7 @@ body {
     left: 1rem;
     transform: rotate(358deg);
     z-index: -1;
+    animation: balanceo 3s infinite ease-in-out;
 }
 
 .frase {
@@ -79,5 +82,23 @@ body {
 
     .shadow {
         left: 0.5rem;
+    }
+}
+
+@keyframes balanceo {
+    0% {
+        transform: rotate(358deg) translateX(0);
+    }
+    25% {
+        transform: rotate(360deg) translateX(10px);
+    }
+    50% {
+        transform: rotate(358deg) translateX(0);
+    }
+    75% {
+        transform: rotate(356deg) translateX(-10px);
+    }
+    100% {
+        transform: rotate(358deg) translateX(0);
     }
 }
