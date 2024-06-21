@@ -54,9 +54,9 @@ body {
     position: absolute;
     top: -0.20rem;
     left: 1rem;
-    transform: rotate(358deg);
+    /* transform: rotate(358deg); */
     z-index: -1;
-    animation: balanceo 3s infinite ease-in-out;
+    animation: tambaleo 10s infinite ease-in-out;
 }
 
 .frase {
@@ -84,21 +84,38 @@ body {
         left: 0.5rem;
     }
 }
-
-@keyframes balanceo {
+@keyframes tambaleo {
     0% {
-        transform: rotate(358deg) translateX(0);
+        transform: translate(0, 0) scaleX(1) scaleY(1);
     }
-    25% {
-        transform: rotate(360deg) translateX(10px);
+    10% {
+        transform: translate(-5px, -5px) scaleX(0.95) scaleY(1.05);
+    }
+    20% {
+        transform: translate(5px, -5px) scaleX(1.05) scaleY(0.95);
+    }
+    30% {
+        transform: translate(-5px, 5px) scaleX(0.95) scaleY(1.05);
+    }
+    40% {
+        transform: translate(5px, 5px) scaleX(1.05) scaleY(0.95);
     }
     50% {
-        transform: rotate(358deg) translateX(0);
+        transform: translate(-5px, -5px) scaleX(0.95) scaleY(1.05);
     }
-    75% {
-        transform: rotate(356deg) translateX(-10px);
+    60% {
+        transform: translate(5px, -5px) scaleX(1.05) scaleY(0.95);
+    }
+    70% {
+        transform: translate(-5px, 5px) scaleX(0.95) scaleY(1.05);
+    }
+    80% {
+        transform: translate(5px, 5px) scaleX(1.05) scaleY(0.95);
+    }
+    90% {
+        transform: translate(-5px, -5px) scaleX(0.95) scaleY(1.05);
     }
     100% {
-        transform: rotate(358deg) translateX(0);
+        transform: translate(0, 0) scaleX(1) scaleY(1);
     }
 }
