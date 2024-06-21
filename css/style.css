@@ -56,7 +56,6 @@ body {
     left: 1rem;
     transform: rotate(358deg);
     z-index: -1;
-    animation: fadeInOut 10s infinite;
 }
 
 .frase {
@@ -82,17 +81,5 @@ body {
 
     .shadow {
         left: 0.5rem;
-    }
-}
-
-@keyframes fadeInOut {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 1;
     }
 }
